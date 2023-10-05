@@ -1,0 +1,21 @@
+{
+  "name": "appium-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "test": "node src/test.js",
+      "appium": "node_modules/.bin/appium server -pa /wd/hub",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "appium": "^2.0.0",
+    "appium-doctor": "^1.16.2",
+    "webdriverio": "^8.12.1"
+  },
+  "devDependencies": {
+    "appium-uiautomator2-driver": "^2.29.2"
+  }
+}
